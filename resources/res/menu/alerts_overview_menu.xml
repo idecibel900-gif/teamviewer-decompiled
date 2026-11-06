@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/show_help_dialogue_icon"
+        android:id="@+id/alert_help_button"
+        android:orderInCategory="1"
+        android:title="@string/tv_help_menu_item"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/settings_icon"
+        android:id="@+id/alert_settings_button"
+        android:orderInCategory="2"
+        android:title="@string/tv_session_toolbar_info_button_options"
+        app:showAsAction="always"/>
+</menu>

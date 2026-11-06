@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/computer_select_dialogue_item_min_height"
+    android:paddingStart="@dimen/computer_select_dialogue_padding_horizontal"
+    android:paddingEnd="@dimen/computer_select_dialogue_padding_horizontal">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/device_with_online_state"/>
+    <TextView
+        android:textColor="@color/colorPartnerNameOnline"
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/pl_computer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/computer_select_dialogue_text_padding_start"/>
+</LinearLayout>

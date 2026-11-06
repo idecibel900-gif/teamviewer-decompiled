@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="28dp"
+    android:width="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24.045,10.841a5.605,5.605 0,0 1,0.984 0.09V6.222a1.954,1.954 0,0 0,-1.953 -1.953H2.567A1.953,1.953 0,0 0,0.614 6.222V17.616a1.953,1.953 0,0 0,1.953 1.953H19.743"/>
+    <path
+        android:fillColor="#ff000000"
+        android:pathData="M2.566,18.069a0.454,0.454 0,0 1,-0.453 -0.453V6.222a0.454,0.454 0,0 1,0.453 -0.453h20.51a0.454,0.454 0,0 1,0.453 0.453v4.653c0.191,0 0.337,0 0.515,0h0.984V6.222a1.953,1.953 0,0 0,-1.953 -1.953H2.566A1.953,1.953 0,0 0,0.613 6.222V17.616a1.953,1.953 0,0 0,1.953 1.953H19.891v-1.5Z"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M12.553,22.57V19.015"
+        android:strokeColor="#030504"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M9.589,22.57L15.488,22.57"
+        android:strokeColor="#000"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27.387,10.523V22.582a1.148,1.148 0,0 1,-1.148 1.148h-6.7a1.147,1.147 0,0 1,-1.152 -1.144V10.523a1.148,1.148 0,0 1,1.148 -1.148h6.7a1.148,1.148 0,0 1,1.148 1.148Z"/>
+    <path
+        android:fillColor="#ff000000"
+        android:pathData="M25.887,10.875h-6V22.231h6V10.875m1.5,-0.351V22.583a1.148,1.148 0,0 1,-1.149 1.148h-6.7a1.148,1.148 0,0 1,-1.148 -1.148V10.524a1.149,1.149 0,0 1,1.148 -1.149h6.7A1.149,1.149 0,0 1,27.387 10.524Z"/>
+    <path
+        android:fillColor="#030504"
+        android:pathData="M24.045,10.841"/>
+    <path
+        android:fillColor="#030504"
+        android:pathData="M24.045,10.841"/>
+    <path
+        android:fillColor="#030504"
+        android:pathData="M25.029,10.875"/>
+</vector>

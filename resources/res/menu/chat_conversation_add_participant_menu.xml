@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_participant"
+        android:orderInCategory="1"
+        android:title="@string/tv_chat_conversation_add_participant_action"
+        app:showAsAction="withText|always"/>
+    <item
+        android:icon="@drawable/settings_icon"
+        android:id="@+id/add_participant_settings_button"
+        android:orderInCategory="2"
+        android:title="@string/tv_session_toolbar_info_button_options"
+        app:showAsAction="always"/>
+</menu>

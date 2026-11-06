@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="list_margin_left">20dp</dimen>
+    <dimen name="m2m_instructions_video_description_width">290dp</dimen>
+    <dimen name="m2m_instructions_video_height">79dp</dimen>
+    <dimen name="m2m_instructions_video_width">180dp</dimen>
+    <dimen name="material_bottom_app_bar_height">48dp</dimen>
+    <dimen name="special_keyboard_height">194dp</dimen>
+    <dimen name="special_keyboard_key_height">36dp</dimen>
+    <dimen name="special_keyboard_padding_horizontal">2dp</dimen>
+    <dimen name="special_keyboard_padding_vertical">3dp</dimen>
+    <dimen name="special_keyboard_vertical_gap">6dp</dimen>
+</resources>

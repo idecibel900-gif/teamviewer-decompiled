@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="fab_animation_fade_in_from_scale">0%</fraction>
+    <fraction name="fab_animation_fade_in_to_scale">100%</fraction>
+    <fraction name="fab_animation_fade_out_from_scale">@fraction/fab_animation_fade_in_to_scale</fraction>
+    <fraction name="fab_animation_fade_out_to_scale">@fraction/fab_animation_fade_in_from_scale</fraction>
+</resources>

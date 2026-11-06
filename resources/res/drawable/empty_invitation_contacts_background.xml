@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="176dp"
+    android:width="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="176">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59,115H141V144C141,152.84 133.84,160 125,160H75C66.16,160 59,152.84 59,144V115Z"
+        android:strokeColor="#3e3f46"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#d4dcfc"
+        android:pathData="M141,115H59L75.88,94H124.13L141,115Z"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M105,94H124.13L141,115H59L65,107.5"
+        android:strokeColor="#3e3f46"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M58.93,115L43,102.17L52,95.5"
+        android:strokeColor="#3e3f46"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M124,93.81L135.38,86L157,102.17L141.07,115L124,93.81Z"
+        android:strokeColor="#3e3f46"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M78,52.5L78,52.5A27.5,27.5 0,0 1,105.5 80L105.5,80A27.5,27.5 0,0 1,78 107.5L78,107.5A27.5,27.5 0,0 1,50.5 80L50.5,80A27.5,27.5 0,0 1,78 52.5z"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="3"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M78,54L78,54A26,26 0,0 1,104 80L104,80A26,26 0,0 1,78 106L78,106A26,26 0,0 1,52 80L52,80A26,26 0,0 1,78 54z"
+        android:strokeColor="#3e3f46"
+        android:strokeWidth="2"/>
+    <path
+        android:fillColor="#3e3f46"
+        android:pathData="M88,79H79V70C79,69.45 78.55,69 78,69C77.45,69 77,69.45 77,70V79H68C67.45,79 67,79.45 67,80C67,80.55 67.45,81 68,81H77V90C77,90.55 77.45,91 78,91C78.55,91 79,90.55 79,90V81H88C88.55,81 89,80.55 89,80C89,79.45 88.55,79 88,79Z"/>
+    <path
+        android:fillColor="@drawable/_empty_invitation_contacts_background__0_res_0x7f08000c"
+        android:pathData="M78,51L78,51A2,2 0,0 0,80 49L80,21A2,2 0,0 0,78 19L78,19A2,2 0,0 0,76 21L76,49A2,2 0,0 0,78 51z"
+        android:strokeAlpha="0.7"
+        android:fillAlpha="0.7"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M121,31.5L121,31.5A27.5,27.5 0,0 1,148.5 59L148.5,59A27.5,27.5 0,0 1,121 86.5L121,86.5A27.5,27.5 0,0 1,93.5 59L93.5,59A27.5,27.5 0,0 1,121 31.5z"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="3"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M121,33L121,33A26,26 0,0 1,147 59L147,59A26,26 0,0 1,121 85L121,85A26,26 0,0 1,95 59L95,59A26,26 0,0 1,121 33z"
+        android:strokeColor="#b2c0f9"
+        android:strokeWidth="2"/>
+    <path
+        android:fillColor="#2747d0"
+        android:pathData="M123,56C123,57.1 122.11,58 121,58C119.89,58 119,57.1 119,56C119,54.89 119.89,54 121,54C122.11,54 123,54.89 123,56Z"/>
+    <path
+        android:fillColor="#2747d0"
+        android:pathData="M124.5,59.81V60.35C124.5,61.44 123.01,62.25 121,62.25C118.99,62.25 117.5,61.44 117.5,60.35V59.81C117.5,59.36 117.86,59 118.31,59H123.69C124.14,59 124.5,59.36 124.5,59.81Z"/>
+    <path
+        android:fillColor="#2747d0"
+        android:pathData="M114.75,47.5C112.96,47.5 111.5,48.96 111.5,50.75V67.25C111.5,69.04 112.96,70.5 114.75,70.5H129.75C130.16,70.5 130.5,70.16 130.5,69.75C130.5,69.34 130.16,69 129.75,69H114.75C113.87,69 113.14,68.35 113.02,67.5H129.75C130.16,67.5 130.5,67.16 130.5,66.75V50.75C130.5,48.96 129.04,47.5 127.25,47.5H114.75ZM129,50.75V66H113V50.75C113,49.78 113.78,49 114.75,49H127.25C128.22,49 129,49.78 129,50.75Z"/>
+    <path
+        android:fillColor="@drawable/_empty_invitation_contacts_background__1_res_0x7f08000d"
+        android:pathData="M119,28C119,29.1 119.89,30 121,30C122.11,30 123,29.1 123,28V14C123,12.9 122.11,12 121,12C119.89,12 119,12.9 119,14V28Z"
+        android:strokeAlpha="0.7"
+        android:fillAlpha="0.7"/>
+    <path
+        android:fillColor="#d3d5db"
+        android:pathData="M53,142C53.55,142 54,142.45 54,143C54,143.55 53.55,144 53,144H13C12.45,144 12,143.55 12,143C12,142.45 12.45,142 13,142H53ZM187,142C187.55,142 188,142.45 188,143C188,143.55 187.55,144 187,144H147C146.45,144 146,143.55 146,143C146,142.45 146.45,142 147,142H187Z"/>
+</vector>

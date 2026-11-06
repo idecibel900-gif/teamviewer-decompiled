@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:fillAfter="true">
+    <scale
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="@integer/fab_animation_duration"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="@fraction/fab_animation_fade_out_from_scale"
+        android:toXScale="@fraction/fab_animation_fade_out_to_scale"
+        android:fromYScale="@fraction/fab_animation_fade_out_from_scale"
+        android:toYScale="@fraction/fab_animation_fade_out_to_scale"/>
+    <alpha
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="@integer/fab_animation_duration"
+        android:fromAlpha="@integer/fab_animation_fade_out_from_alpha"
+        android:toAlpha="@integer/fab_animation_fade_out_to_alpha"/>
+</set>

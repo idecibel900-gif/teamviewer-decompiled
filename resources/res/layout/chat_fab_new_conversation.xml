@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end|bottom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/chat_main_floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        android:tint="@color/fabIconColor"
+        android:layout_marginStart="@dimen/fab_margin_horizontal"
+        android:layout_marginEnd="@dimen/fab_margin_horizontal"
+        app:backgroundTint="@color/fabColor"
+        app:srcCompat="@drawable/add_icon_white"/>
+</FrameLayout>

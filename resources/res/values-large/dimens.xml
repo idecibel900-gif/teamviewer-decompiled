@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <dimen name="abc_dialog_min_width_major">55%</dimen>
+    <dimen name="abc_dialog_min_width_minor">80%</dimen>
+    <dimen name="common_container_padding_horizontal">8dp</dimen>
+    <dimen name="list_margin_top">7dp</dimen>
+    <dimen name="rc_session_toolbar_icon_spacing">16dp</dimen>
+</resources>

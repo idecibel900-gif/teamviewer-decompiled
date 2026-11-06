@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/done_icon"
+        android:id="@+id/saveBuddy"
+        android:orderInCategory="1"
+        android:title="@string/tv_menuSave"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/cancelBuddy"
+        android:orderInCategory="1"
+        android:title="@android:string/cancel"
+        app:showAsAction="withText|ifRoom"/>
+</menu>

@@ -1,0 +1,137 @@
+package com.teamviewer.teamviewerlib.swig.tvshared;
+
+import o.hk0;
+import o.ua5;
+
+/* JADX INFO: loaded from: classes.dex */
+public enum EventParam {
+    EPARAM_TVSESSION_ID(1000),
+    EPARAM_PARTICIPANT_ID(1001),
+    EPARAM_PARTICIPANT_ROLE(1002),
+    EPARAM_PARTICIPANT_VISIBILITY(1003),
+    EPARAM_STREAM_ID(1004),
+    EPARAM_STREAM_TYPE(1005),
+    EPARAM_STREAM_PRIVATE(1006),
+    EPARAM_STREAM_SUBSCRIBED(1007),
+    EPARAM_RIGHT_TYPE(1008),
+    EPARAM_LOGIN_STATE(1009),
+    EPARAM_LOGIN_MEETINGMETADATA(1010),
+    EPARAM_LOGIN_MEETINGPASSWORD_SET(1011),
+    EPARAM_DISPLAY_STATE(1012),
+    EPARAM_TVSESSION_MODE(1013),
+    EPARAM_TVSESSION_TYPE(1014),
+    EPARAM_TVSESSION_END_REASON(1015),
+    EPARAM_SETTING_TYPE(1016),
+    EPARAM_SETTING_VALUE(1017),
+    EPARAM_MEETING_REQUEST_TIMEOUT_GUID(1018),
+    EPARAM_GENERAL_RIGHT_TYPE(1019),
+    EPARAM_GENERAL_RIGHT_VALUE(1020),
+    EPARAM_MEETING_ID(1021),
+    EPARAM_MEETING_PASSWORD(1022),
+    EPARAM_STREAM_DEFAULT_ENABLED(1023),
+    EPARAM_STREAM_REQUIRED_FEATURES(1024),
+    EPARAM_KNOWNSTREAM(1025),
+    EPARAM_ACCESSCONTROLS(1027),
+    EPARAM_EVENTLOG_TYPE(1029),
+    EPARAM_EVENTLOG_MESSAGE(1030),
+    EPARAM_EVENTLOG_ACTION(1031),
+    EPARAM_REFRESH_RECALC(1033),
+    EPARAM_TFA_CHALLENGE_STEP(1035),
+    EPARAM_BUDDY_ID(1036),
+    EPARAM_EVENTLOG_SHOWPLATFORMNOTIFICATION(1038),
+    EPARAM_TVSESSION_SCB_TYPE(1039),
+    EPARAM_STREAM_ENABLE(1040),
+    EPARAM_MEETING_AUTHENTICATION_FAILURECOUNT(1041),
+    EPARAM_ACCOUNT_ID(1042),
+    EPARAM_DISCOVERY_NODE(1043),
+    EPARAM_DISCOVERY_QUERY(1044),
+    EPARAM_TVSESSION_NAME(1046),
+    EPARAM_TVSESSION_DURATION(1047),
+    EPARAM_TVSESSION_STARTTYPE(1048),
+    EPARAM_TVSESSION_TERMINATE_REASON(1050),
+    EPARAM_PARTICIPANT_JOIN_TIMESTAMP(1051),
+    EP_SESSION_CONNECTION_STATE(10002),
+    EP_CHAT_SENDER_PARTICIPANT_ID(10018),
+    EP_CHAT_MESSAGE(10021),
+    EP_CHAT_STATUS(10022),
+    EP_SETTINGS_KEY(10031),
+    EP_COMMENT_SESSION_GUID(10032),
+    EP_RS_INFO_MESSAGE(10033),
+    EP_RS_INFO_LVL(10034),
+    EP_RS_INFO_ICON(10035),
+    EP_RS_MODULE_TYPE(10036),
+    EP_RS_FILETRANSFER_FILE(10037),
+    EP_RS_FILETRANSFER_ACTION(10038),
+    EP_RS_FILETRANSFER_OVERALLSIZE(10039),
+    EP_RS_FILETRANSFER_DATASIZE(10040),
+    EP_SESSION_CONNECTION_STATE_INFO(10041),
+    EP_ONLINE_STATE(10042),
+    EP_SCALING_FACTOR_VALUE_NEW(10044),
+    EP_SCALING_FACTOR_VALUE_OLD(10045),
+    EP_RS_MODULE_SCREEN_USE_MEDIAPROJECTION(10046),
+    EP_RS_UNINSTALL_PACKAGE_REQUEST_ID(10047),
+    EP_RS_UNINSTALL_PACKAGE_NAME(10048),
+    EP_RS_UNINSTALL_PACKAGE_RESULT(10049),
+    EP_RS_ACCESS_CONTROL_CONFIRMATION_RESULT(10050),
+    EP_RS_SCREENSHARING_RESULT(10051),
+    EP_RS_ACCESS_CONTROL_WHAT_ACCESS(10052),
+    EP_RS_STORAGE_PERMISSION_REQUEST_RESULT(10053),
+    EP_RS_INFO_INTENT_URI(10054),
+    EP_COMMERCIAL_USE_MESSAGE(10055),
+    EP_COMMERCIAL_USE_DIALOG_TYPE(10056),
+    EP_RS_INFO_PERMISSION_TYPE(10057),
+    EP_RS_START_PACKAGE_REQUEST_ID(10058),
+    EP_RS_START_PACKAGE_NAME(10059),
+    EP_RS_READ_PHONE_STATE_PERMISSION_REQUEST_RESULT(10060),
+    EP_RS_ACCESS_CONTROL_TIMEOUT(10061),
+    EP_RS_APP_EVENT_TYPE(10062),
+    EP_FILETRANSFER_PROGRESS(10062),
+    EP_FILETRANSFER_CHECK_FILE_SIZE(10063);
+
+    private final int swigValue;
+
+    public static class SwigNext {
+        private static int next;
+
+        private SwigNext() {
+        }
+    }
+
+    EventParam() {
+        int i = SwigNext.next;
+        SwigNext.next = i + 1;
+        this.swigValue = i;
+    }
+
+    public static EventParam swigToEnum(int i) {
+        EventParam[] eventParamArr = (EventParam[]) EventParam.class.getEnumConstants();
+        if (i < eventParamArr.length && i >= 0) {
+            EventParam eventParam = eventParamArr[i];
+            if (eventParam.swigValue == i) {
+                return eventParam;
+            }
+        }
+        for (EventParam eventParam2 : eventParamArr) {
+            if (eventParam2.swigValue == i) {
+                return eventParam2;
+            }
+        }
+        hk0.g(ua5.k(i, EventParam.class, "No enum ", " with value "));
+        return null;
+    }
+
+    public final int swigValue() {
+        return this.swigValue;
+    }
+
+    EventParam(int i) {
+        this.swigValue = i;
+        SwigNext.next = i + 1;
+    }
+
+    EventParam(EventParam eventParam) {
+        int i = eventParam.swigValue;
+        this.swigValue = i;
+        SwigNext.next = i + 1;
+    }
+}

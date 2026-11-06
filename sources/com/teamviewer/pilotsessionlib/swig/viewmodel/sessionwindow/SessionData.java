@@ -1,0 +1,24 @@
+package com.teamviewer.pilotsessionlib.swig.viewmodel.sessionwindow;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class SessionData {
+    public transient long a;
+    public transient boolean b;
+
+    public final void finalize() {
+        synchronized (this) {
+            try {
+                long j = this.a;
+                if (j != 0) {
+                    if (this.b) {
+                        this.b = false;
+                        IViewManagerViewModelSWIGJNI.delete_SessionData(j);
+                    }
+                    this.a = 0L;
+                }
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+    }
+}

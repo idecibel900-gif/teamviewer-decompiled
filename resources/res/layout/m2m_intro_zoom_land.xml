@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:id="@+id/videos_scroll_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.87">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/left_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp">
+                <include layout="@layout/m2m_intro_zoom_unlocked"/>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/instructions_got_it_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/tv_m2m_instructions_button"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_alignEnd="@+id/right_layout"
+                style="@style/AppTheme.MaterialStyleBlueButton"/>
+            <RelativeLayout
+                android:id="@+id/right_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/left_layout"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/left_layout">
+                <include layout="@layout/m2m_intro_zoom_locked"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </HorizontalScrollView>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.13"/>
+</LinearLayout>

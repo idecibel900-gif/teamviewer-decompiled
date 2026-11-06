@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/quick_action_bottom_sheet_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/material_text_size_headline_6"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="fill_vertical"
+        android:layout_gravity="fill_vertical"
+        android:paddingTop="@dimen/bottom_sheet_content_top_padding"
+        android:paddingBottom="@dimen/bottom_sheet_content_list_item_bottom_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/tv_session_toolbar_info_button_settings"
+        android:drawableLeft="@drawable/quick_actions"
+        android:drawablePadding="@dimen/bottom_sheet_content_drawable_padding"
+        android:paddingStart="@dimen/bottom_sheet_content_left_padding"/>
+    <ListView
+        android:id="@+id/quick_action_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

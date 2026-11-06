@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tableRow"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/service_case_list_entry_min_height">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/service_case_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/service_case_list_entry_icon_padding_start"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/buddy_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/group_list_group_text_padding_start">
+        <TextView
+            android:textSize="@dimen/buddy_list_item_text_size"
+            android:ellipsize="end"
+            android:id="@+id/service_case_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:textIsSelectable="false"
+            android:textAlignment="viewStart"/>
+        <ImageButton
+            android:id="@+id/service_case_connect_button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="0x7f08020d"
+            app:tint="@color/accent"
+            style="@style/TVImageButtonPartnerSecondaryAction"/>
+        <Button
+            android:id="@+id/service_case_takeover_button"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_partner_list_takeOver"
+            style="@style/TVTextButtonPartnerSecondaryAction"/>
+    </LinearLayout>
+</LinearLayout>

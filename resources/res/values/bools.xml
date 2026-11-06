@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="config_swipeDisambiguation">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="tv_isHost">false</bool>
+    <bool name="tv_isPilot">false</bool>
+    <bool name="tv_isPilotLite">false</bool>
+    <bool name="tv_isQuickSupport">false</bool>
+    <bool name="tv_isRemoteControl">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

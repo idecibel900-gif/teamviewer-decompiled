@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_sheet_menu_rename_option"
+        android:title="@null"
+        app:actionLayout="@layout/layout_bottom_sheet_rename"/>
+    <item
+        android:id="@+id/bottom_sheet_menu_delete_option"
+        android:title="@null"
+        app:actionLayout="@layout/layout_bottom_sheet_delete"/>
+    <item
+        android:id="@+id/bottom_sheet_menu_settings_option"
+        android:title="@null"
+        app:actionLayout="@layout/layout_bottom_sheet_settings"/>
+</menu>

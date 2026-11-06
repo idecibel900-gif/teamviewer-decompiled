@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@drawable/listitem_selector"
+    android:ellipsize="end"
+    android:gravity="start|center_vertical"
+    android:id="@+id/dropdownlist_item_title"
+    android:background="@drawable/listitem_selector"
+    android:paddingTop="9dp"
+    android:paddingBottom="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/filetransfer_clip_dropdown_min_width"
+    android:minHeight="48dp"
+    android:singleLine="true"
+    android:paddingStart="7dp"
+    android:paddingEnd="7dp"/>

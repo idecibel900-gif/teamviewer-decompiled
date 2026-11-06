@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.teamviewer.commonresourcelib.preferences.GenericIntentPreference
+        android:layout="@layout/redesign_layout_preference_header_style"
+        android:title="@string/tv_options_ShowSessionInfo"
+        app:targetClass="com.teamviewer.remotecontrolviewlib.activity.SessionInfoActivity"/>
+    <PreferenceCategory
+        android:layout="@layout/redesign_layout_preference_title_only_style"
+        android:title="@string/tv_options_Control"
+        android:key="control_preference_category"
+        app:iconSpaceReserved="false">
+        <com.teamviewer.remotecontrolviewlib.preferences.TVRemoteCursorPreference
+            android:persistent="false"
+            android:layout="@layout/redesign_layout_preference_switch"
+            android:title="@string/tv_options_ShowRemoteCursor"
+            android:key="SHOW_REMOTE_CURSOR"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/redesign_layout_preference_title_only_style"
+        android:title="@string/tv_options_QualitySettings"
+        app:iconSpaceReserved="false">
+        <com.teamviewer.remotecontrolviewlib.preferences.TVSessionQualityPreference
+            android:layout="@layout/redesign_layout_preference_header_summary_style"
+            android:title="@string/tv_options_Quality"
+            android:defaultValue="@string/tv_options_Automatic"/>
+        <com.teamviewer.remotecontrolviewlib.preferences.TVChangeResolutionPreference
+            android:persistent="false"
+            android:layout="@layout/redesign_layout_preference_header_summary_style"
+            android:title="@string/tv_resolution"
+            android:key="change_resolution_preference"/>
+        <com.teamviewer.remotecontrolviewlib.preferences.TVRemoveWallpaperPreference
+            android:persistent="false"
+            android:layout="@layout/redesign_layout_preference_switch"
+            android:title="@string/tv_options_RemoveWallpaper"
+            android:key="REMOVE_WALLPAPER"/>
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

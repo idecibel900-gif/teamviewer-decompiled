@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_focused="true"
+        android:state_pressed="false"
+        android:drawable="0x7f0800e1"
+        android:color="@color/clipTextColor"/>
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:drawable="0x7f0800e2"
+        android:color="@color/clipTextColorPressed"/>
+    <item
+        android:state_focused="false"
+        android:state_pressed="true"
+        android:drawable="0x7f0800e2"
+        android:color="@color/clipTextColorPressed"/>
+    <item
+        android:drawable="0x7f0800e1"
+        android:color="@color/clipTextColor"/>
+</selector>

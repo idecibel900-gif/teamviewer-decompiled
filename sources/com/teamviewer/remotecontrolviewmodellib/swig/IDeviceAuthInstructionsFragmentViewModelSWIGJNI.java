@@ -1,0 +1,12 @@
+package com.teamviewer.remotecontrolviewmodellib.swig;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class IDeviceAuthInstructionsFragmentViewModelSWIGJNI {
+    public static final native void IDeviceAuthenticationInstructionsFragmentViewModel_ReportDeviceAuthenticationInstructionsScreenIsShown(long j, IDeviceAuthenticationInstructionsFragmentViewModel iDeviceAuthenticationInstructionsFragmentViewModel);
+
+    public static final native void IDeviceAuthenticationInstructionsFragmentViewModel_ReportLearnMoreIsTapped(long j, IDeviceAuthenticationInstructionsFragmentViewModel iDeviceAuthenticationInstructionsFragmentViewModel);
+
+    public static final native void IDeviceAuthenticationInstructionsFragmentViewModel_ReportScanQrCodeIsTapped(long j, IDeviceAuthenticationInstructionsFragmentViewModel iDeviceAuthenticationInstructionsFragmentViewModel);
+
+    public static final native void delete_IDeviceAuthenticationInstructionsFragmentViewModel(long j);
+}

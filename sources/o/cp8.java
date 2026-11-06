@@ -1,0 +1,11 @@
+package o;
+
+import java.util.Collections;
+import java.util.WeakHashMap;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class cp8 {
+    static {
+        Collections.newSetFromMap(new WeakHashMap());
+    }
+}

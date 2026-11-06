@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="56dp">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/preferences_item_header_text_color"
+        android:id="@android:id/title"
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="5dp"
+        android:minHeight="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:layout_toStartOf="@+id/custom_switch"/>
+    <Switch
+        android:layout_gravity="center_vertical"
+        android:id="@+id/custom_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:minHeight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="4dp"/>
+</RelativeLayout>

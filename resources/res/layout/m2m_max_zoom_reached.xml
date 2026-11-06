@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/tv_white"
+        android:id="@+id/instructions_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="400dp"
+        android:text="@string/tv_m2m_instructions_explanation"
+        android:drawablePadding="6dp"
+        android:layout_alignParentTop="true"
+        android:drawableEnd="0x7f0801a3"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentStart="true"/>
+    <Button
+        android:id="@+id/instructions_got_it_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_m2m_instructions_button"
+        android:layout_below="@+id/instructions_text"
+        android:layout_marginStart="-4dp"
+        android:layout_alignStart="@+id/instructions_text"
+        style="@style/AppTheme.MaterialStyleBlueButton"/>
+</merge>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="biometric_protection_promotion_guideline_bottom">0.95</dimen>
+    <dimen name="biometric_protection_promotion_guideline_end">0.7</dimen>
+    <dimen name="biometric_protection_promotion_guideline_start">0.3</dimen>
+    <dimen name="biometric_protection_promotion_guideline_top">0.08</dimen>
+    <dimen name="conditional_access_authentication_padding_start_and_end">150dp</dimen>
+    <dimen name="device_authentication_connection_request_padding_start_and_end">150dp</dimen>
+    <dimen name="lock_screen_guideline_end">0.65</dimen>
+    <dimen name="lock_screen_guideline_start">0.35</dimen>
+    <dimen name="trusted_device_request_margin_large">48dp</dimen>
+    <dimen name="trusted_device_request_margin_medium">40dp</dimen>
+    <dimen name="trusted_device_request_padding_start_and_end">150dp</dimen>
+    <dimen name="trusted_device_request_spacer_height">60dp</dimen>
+</resources>

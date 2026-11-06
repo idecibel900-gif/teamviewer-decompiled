@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:horizontalGap="0dp"
+    app:keyHeight="30dp"
+    app:keyWidth="46dp"
+    app:verticalGap="0dp">
+    <Row>
+        <Key
+            app:codes="@integer/key_dpad_up"
+            app:keyEdgeFlags="left"
+            app:keyIcon="0x7f0801a7"/>
+        <Key
+            app:codes="@integer/key_dpad_down"
+            app:keyIcon="0x7f0801a4"/>
+        <Key
+            app:codes="@integer/key_dpad_left"
+            app:keyIcon="0x7f0801a5"/>
+        <Key
+            app:codes="@integer/key_dpad_right"
+            app:keyEdgeFlags="right"
+            app:keyIcon="0x7f0801a6"/>
+    </Row>
+</Keyboard>

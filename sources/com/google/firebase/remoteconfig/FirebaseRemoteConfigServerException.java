@@ -1,0 +1,30 @@
+package com.google.firebase.remoteconfig;
+
+/* JADX INFO: loaded from: classes.dex */
+public class FirebaseRemoteConfigServerException extends FirebaseRemoteConfigException {
+    private final int httpStatusCode;
+
+    public FirebaseRemoteConfigServerException(String str, FirebaseRemoteConfigException.Code code) {
+        super(str, code);
+        this.httpStatusCode = -1;
+    }
+
+    public int getHttpStatusCode() {
+        return this.httpStatusCode;
+    }
+
+    public FirebaseRemoteConfigServerException(int i, String str, Throwable th) {
+        super(str, th);
+        this.httpStatusCode = i;
+    }
+
+    public FirebaseRemoteConfigServerException(int i, String str) {
+        super(str);
+        this.httpStatusCode = i;
+    }
+
+    public FirebaseRemoteConfigServerException(int i, String str, FirebaseRemoteConfigException.Code code) {
+        super(str, code);
+        this.httpStatusCode = i;
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/connect_item"/>
+    <item android:id="@+id/buddy_item"/>
+    <item android:id="@+id/chat_item"/>
+    <item android:id="@+id/solutions_item"/>
+</menu>

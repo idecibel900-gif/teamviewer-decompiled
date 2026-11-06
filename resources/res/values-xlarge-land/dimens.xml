@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_container_padding_horizontal">210dp</dimen>
+    <dimen name="list_margin_left">140dp</dimen>
+    <dimen name="list_margin_top">20dp</dimen>
+</resources>

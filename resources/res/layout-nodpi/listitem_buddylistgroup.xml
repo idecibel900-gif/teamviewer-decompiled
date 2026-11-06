@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/group_list_group_min_height">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/group_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/group_list_group_icon_padding_start"
+        app:srcCompat="@drawable/ic_folder"/>
+    <TextView
+        android:textSize="@dimen/buddy_list_item_text_size"
+        android:textColor="@color/colorGroupName"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textIsSelectable="false"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/group_list_group_text_padding_start"/>
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/group_shared"
+        android:padding="@dimen/group_list_group_secondary_action_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_cloud"/>
+</LinearLayout>

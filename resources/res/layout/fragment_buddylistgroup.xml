@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/plGroupDetailsRecyclerView"
+        android:paddingBottom="@dimen/buddy_list_bottom_margin_last_entry"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <View
+        android:id="@+id/fabDarkBackground"
+        android:background="#80000014"
+        android:focusable="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/plGroupDetailsListNoItems"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/buddy_list_no_items_message_padding"
+        android:text="@string/tv_partner_no_items"
+        style="@style/TVTextView"/>
+</FrameLayout>

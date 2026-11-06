@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.teamviewer.commonresourcelib.preferences.GenericIntentPreference
+        android:title="@string/tv_options_ShowSessionInfo"
+        app:targetClass="com.teamviewer.remotecontrolviewlib.activity.SessionInfoActivity"/>
+    <PreferenceCategory android:title="@string/tv_options_QualitySettings">
+        <com.teamviewer.remotecontrolviewlib.preferences.TVSessionQualityPreference
+            android:title="@string/tv_options_Quality"
+            android:defaultValue="@string/tv_options_Automatic"/>
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

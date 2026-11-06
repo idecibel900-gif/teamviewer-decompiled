@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/settings_icon"
+        android:id="@+id/device_alarm_details_settings_button"
+        android:orderInCategory="1"
+        android:title="@string/tv_session_toolbar_info_button_options"
+        app:showAsAction="always"/>
+</menu>

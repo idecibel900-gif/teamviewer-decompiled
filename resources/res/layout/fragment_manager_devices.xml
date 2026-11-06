@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/shimmerFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+            <include layout="@layout/shimmer_placeholder_layout"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/plMyManagedDevicesRecyclerView"
+        android:paddingBottom="@dimen/buddy_list_bottom_margin_last_entry"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDarkBackground"
+        android:background="#80000014"
+        android:focusable="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/plGroupDetailsListNoItems"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/buddy_list_no_items_message_padding"
+        android:text="@string/tv_partner_no_items"
+        style="@style/TVTextView"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_gravity="end|bottom"
+        android:id="@+id/pl_scan_qr_code"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        android:tint="@color/fabIconColor"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="@dimen/fab_margin_horizontal"
+        app:backgroundTint="@color/fabColor"
+        app:srcCompat="@drawable/add_icon_white"/>
+</FrameLayout>

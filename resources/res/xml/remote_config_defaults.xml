@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>contact_us_url
+        </key>
+        <value>https://www.teamviewer.com/support/contact/
+        </value>
+    </entry>
+    <entry>
+        <key>supports_pilot_native_session
+        </key>
+        <value>false
+        </value>
+    </entry>
+</defaultsMap>

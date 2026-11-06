@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.teamviewer.commonresourcelib.preferences.VersionPreference
+        android:title="@string/tv_options_Version"
+        android:selectable="false"/>
+    <com.teamviewer.remotecontrolviewlib.preferences.TVConnectionTypePreference
+        android:title="@string/tv_options_ConnectionType"
+        android:selectable="false"/>
+    <com.teamviewer.remotecontrolviewlib.preferences.TVPartnerIdPreference
+        android:title="@string/tv_options_PartnerID"
+        android:selectable="false"/>
+    <com.teamviewer.remotecontrolviewlib.preferences.TVSessionDurationPreference
+        android:title="@string/tv_options_SessionDuration"
+        android:selectable="false"/>
+    <com.teamviewer.remotecontrolviewlib.preferences.DyngateIDPreference
+        android:title="@string/tv_teamViewerID"
+        android:selectable="false"/>
+</androidx.preference.PreferenceScreen>

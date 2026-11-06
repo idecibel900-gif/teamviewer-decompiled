@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/keyboard_key_button_normal"
+    android:insetLeft="@dimen/special_keyboard_padding_horizontal"
+    android:insetRight="@dimen/special_keyboard_padding_horizontal"
+    android:insetTop="@dimen/special_keyboard_padding_vertical"
+    android:insetBottom="@dimen/special_keyboard_padding_vertical"/>

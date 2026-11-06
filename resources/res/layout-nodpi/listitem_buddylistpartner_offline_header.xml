@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/list_header_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:background="@color/redesign_monitoring_alert_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:textSize="@dimen/buddy_list_header_text_size"
+        android:textColor="@color/redesign_colorBuddylistSectionTitle"
+        android:background="@color/buddy_list_group_background"
+        android:padding="@dimen/partner_list_header_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/partner_list_header_min_height"
+        android:text="@string/OnlineState_Offline"
+        android:textIsSelectable="false"/>
+</LinearLayout>

@@ -1,0 +1,71 @@
+package o;
+
+import android.app.NotificationChannel;
+import android.content.Context;
+import android.graphics.Insets;
+import android.graphics.drawable.Icon;
+import android.net.Uri;
+import android.os.ext.SdkExtensions;
+import android.view.DisplayCutout;
+import android.view.View;
+import android.view.Window;
+import android.view.accessibility.AccessibilityNodeInfo;
+import android.view.inputmethod.EditorInfo;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class b4 {
+    public static Icon a(Uri uri) {
+        return Icon.createWithAdaptiveBitmapContentUri(uri);
+    }
+
+    public static String b(Context context) {
+        return context.getAttributionTag();
+    }
+
+    public static String c(NotificationChannel notificationChannel) {
+        return notificationChannel.getConversationId();
+    }
+
+    public static void d(int i) {
+        SdkExtensions.getExtensionVersion(i);
+    }
+
+    public static String e(NotificationChannel notificationChannel) {
+        return notificationChannel.getParentChannelId();
+    }
+
+    public static CharSequence f(AccessibilityNodeInfo accessibilityNodeInfo) {
+        return accessibilityNodeInfo.getStateDescription();
+    }
+
+    public static Insets g(DisplayCutout displayCutout) {
+        return displayCutout.getWaterfallInsets();
+    }
+
+    public static void h(NotificationChannel notificationChannel) {
+        notificationChannel.isImportantConversation();
+    }
+
+    public static void i(Window window, boolean z) {
+        View decorView = window.getDecorView();
+        int systemUiVisibility = decorView.getSystemUiVisibility();
+        decorView.setSystemUiVisibility(z ? systemUiVisibility & (-257) : systemUiVisibility | 256);
+        window.setDecorFitsSystemWindows(z);
+    }
+
+    public static void j(Window window, boolean z) {
+        window.setDecorFitsSystemWindows(z);
+    }
+
+    public static void k(View view) {
+        view.setImportantForContentCapture(1);
+    }
+
+    public static void l(EditorInfo editorInfo, CharSequence charSequence) {
+        editorInfo.setInitialSurroundingSubText(charSequence, 0);
+    }
+
+    public static void m(AccessibilityNodeInfo accessibilityNodeInfo, CharSequence charSequence) {
+        accessibilityNodeInfo.setStateDescription(charSequence);
+    }
+}

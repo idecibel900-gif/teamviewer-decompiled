@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/list_margin_left"
+    android:paddingEnd="@dimen/list_margin_right">
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/tv_chat_ownmessage_timestamp"
+        android:layout_gravity="right"
+        android:id="@+id/chat_message_readsend_state_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

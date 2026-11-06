@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:id="@+id/rc_session_toolbar"
+    android:background="@color/rc_session_toolbar_background"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/rc_session_toolbar_height"
+    android:baselineAligned="true"
+    android:layout_alignParentBottom="true">
+    <com.teamviewer.remotecontrolviewlib.layout.TVHorizontalScrollView
+        android:id="@+id/bottom_tool_bar_scrollview"
+        android:scrollbars="none"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/rc_session_toolbar_padding_start">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/toolbar_start_aligned_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.teamviewer.remotecontrolviewlib.layout.TVHorizontalScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/toolbar_end_aligned_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/rc_session_toolbar_padding_end"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+package com.teamviewer.remotecontrolviewmodellib.swig;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class ConditionalAccessAuthPayloadSWIGJNI {
+    public static final native String ConditionalAccessAuthenticationPayloadNative_sourceAccountName_get(long j, ConditionalAccessAuthenticationPayloadNative conditionalAccessAuthenticationPayloadNative);
+
+    public static final native String ConditionalAccessAuthenticationPayloadNative_sourceCompanyName_get(long j, ConditionalAccessAuthenticationPayloadNative conditionalAccessAuthenticationPayloadNative);
+
+    public static final native String ConditionalAccessAuthenticationPayloadNative_sourceDeviceName_get(long j, ConditionalAccessAuthenticationPayloadNative conditionalAccessAuthenticationPayloadNative);
+
+    public static final native String ConditionalAccessAuthenticationPayloadNative_targetAccountName_get(long j, ConditionalAccessAuthenticationPayloadNative conditionalAccessAuthenticationPayloadNative);
+
+    public static final native String ConditionalAccessAuthenticationPayloadNative_targetCompanyName_get(long j, ConditionalAccessAuthenticationPayloadNative conditionalAccessAuthenticationPayloadNative);
+
+    public static final native String ConditionalAccessAuthenticationPayloadNative_targetDeviceName_get(long j, ConditionalAccessAuthenticationPayloadNative conditionalAccessAuthenticationPayloadNative);
+
+    public static final native long ConditionalAccessAuthenticationPayloadNative_timeoutInSeconds_get(long j, ConditionalAccessAuthenticationPayloadNative conditionalAccessAuthenticationPayloadNative);
+
+    public static final native String ConditionalAccessAuthenticationPayloadNative_timestamp_get(long j, ConditionalAccessAuthenticationPayloadNative conditionalAccessAuthenticationPayloadNative);
+}

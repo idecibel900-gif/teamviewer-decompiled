@@ -1,0 +1,52 @@
+package com.teamviewer.remotecontrolviewlib.activity;
+
+import android.os.Bundle;
+import androidx.appcompat.widget.Toolbar;
+import com.teamviewer.teamviewer.market.mobile.R;
+import o.ck3;
+import o.ei7;
+import o.j93;
+import o.qr1;
+import o.w10;
+import o.ye4;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class DeviceAuthenticationConnectionRequestActivity extends ei7 {
+    @Override // o.xt2, o.my0, o.ly0, android.app.Activity
+    public final void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+        setContentView(R.layout.activity_options);
+        I((Toolbar) findViewById(R.id.toolbar));
+        ck3 ck3VarH = H();
+        if (ck3VarH == null && !new j93(this).W()) {
+            ye4.c("ToolbarActivityDelegate", "Could not find action bar!");
+            ck3VarH = null;
+        }
+        if (ck3VarH != null) {
+            ck3VarH.n0(false);
+        }
+        setTitle(getString(R.string.tv_device_authentication_connection_request));
+        if (bundle == null) {
+            w10 w10Var = new w10(D());
+            long longExtra = getIntent().getLongExtra("ARG_SOURCE_DYNGATE_ID", 0L);
+            long longExtra2 = getIntent().getLongExtra("ARG_DESTINATION_DYNGATE_ID", 0L);
+            int intExtra = getIntent().getIntExtra("ARG_SESSION_IDENTIFIER", 0);
+            String stringExtra = getIntent().getStringExtra("ARG_DEVICE_NAME");
+            long longExtra3 = getIntent().getLongExtra("ARG_TIME_RECEIVED", 0L);
+            String stringExtra2 = getIntent().getStringExtra("ARG_REGISTRATION_UUID");
+            String stringExtra3 = getIntent().getStringExtra("ARG_NONCE");
+            qr1 qr1Var = new qr1();
+            Bundle bundle2 = new Bundle();
+            bundle2.putLong("ARG_SOURCE_DYNGATE_ID", longExtra);
+            bundle2.putLong("ARG_DESTINATION_DYNGATE_ID", longExtra2);
+            bundle2.putInt("ARG_SESSION_IDENTIFIER", intExtra);
+            bundle2.putString("ARG_DEVICE_NAME", stringExtra);
+            bundle2.putLong("ARG_TIME_RECEIVED", longExtra3);
+            bundle2.putString("ARG_REGISTRATION_UUID", stringExtra2);
+            bundle2.putString("ARG_NONCE", stringExtra3);
+            qr1Var.u0(bundle2);
+            w10Var.k(R.id.main, qr1Var, null);
+            w10Var.f();
+        }
+    }
+}
